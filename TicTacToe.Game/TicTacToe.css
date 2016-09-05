@@ -1,0 +1,61 @@
+﻿table.tic-tac-toe {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+tr.tic-tac-toe {
+    width: 100%;
+    height: 33%;
+}
+
+td.tic-tac-toe {
+    height: 100px;
+    width: 11%;
+    border: 1px solid #7a32e6;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    font-size: larger;
+    color: #000000
+}
+
+td.tic-tac-toe.unselected {
+    background-color: #6804ff;
+}
+
+.tic-tac-toe.x-hover:hover {
+    background-color: #e6329e;
+    cursor: pointer;
+}
+
+.tic-tac-toe.x-selected {
+    background-color: #ff049b;
+}
+
+.tic-tac-toe.o-selected {
+    background-color: #9bff04;
+}
+
+.tic-tac-toe.o-hover:hover {
+    background-color: #9ee632;
+    cursor: pointer;
+}
+
+.tic-tac-toe.winning-spot {
+    background-color: #ffb404;
+}
+
+.tic-tac-toe.message {
+    text-align: center;
+}
+
+.tic-tac-toe.reset {
+    text-align: center;
+    padding-top: 10px;
+    font-size: larger;
+}
+
+.tic-tac-toe.hidden {
+    display: none;
+}

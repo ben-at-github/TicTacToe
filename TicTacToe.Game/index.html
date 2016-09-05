@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript Tic-Tac-Toe</title>
+
+    <style type="text/css">
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: auto;
+            background-color: #fafafa;
+        }
+    </style>
+
+    <link rel="stylesheet" href="TicTacToe.css" type="text/css" />
+    <script src="TicTacToe.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="content"></div>
+    <script type="text/javascript">
+        var tictactoeUI = TicTacToeUI.connectOnWindowLoadTo(document.getElementById("content"));
+    </script>
+</body>
+</html>
